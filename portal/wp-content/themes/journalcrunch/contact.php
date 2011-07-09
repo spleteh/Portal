@@ -41,6 +41,8 @@ Template Name: Contact
 			<label for="email">Vaš E-naslov: *</label>
 
 				<input type="text" id="emailinput" name="email" value=""/>
+			<label for="datafile">Slika: *</label>	
+				<input type="file" name="datafile" size="40">
 			<label for="comment">Vaše sporočilo: *</label>
 				<textarea cols="20" rows="7" id="commentinput" name="comment"></textarea><br />
 			<input type="submit" id="submitinput" name="submit" class="submit" value="POŠLJI"/>
