@@ -241,14 +241,24 @@ p.cf-sb {
 
 /*                                                    */
 /*   FORM FIELDS enhanced error display               */
-/*                                                    */
-ol.cf-ol li.cf_li_err {
+/*   
+/*                                                 */
+/*ol.cf-ol li.cf_li_err {
 	background:#FFDFDF url(li-err-bg.png) repeat!important;
 	border-color:#DF7D7D;
 	border-style:solid;
 	border-width:1px 0pt;
 	padding:5px 0!important;
 	margin:5px 0!important;
+}*/
+
+ol.cf-ol li.cf_li_err {
+	border-radius:15px;
+	-moz-border-radius:15px;
+	border: 2px solid #D93628; 
+	padding:5px 10px !important;
+	margin:5px -10px !important;
+	
 }
 
 ol.cf-ol li ul.cf_li_text_err {
@@ -349,11 +359,16 @@ div.success {
 }
 div.failure {
 	display:block;
-	background:#FFDFDF url(li-err-bg.png) repeat!important;
-	border-color:#DF7D7D;
-	border-style:solid;
-	border-width:1px 0pt;
+	border: 2px solid #D93628;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	/*background-color:#D93628;*/
+	color:#D93628;
+	text-align:center;
+	
 }
+
+
 div.waiting {
 	background:#F9F9F9;
 	color:#AAAAAA;
