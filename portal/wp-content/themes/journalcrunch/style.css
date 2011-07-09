@@ -194,6 +194,7 @@ h3{
     background: -moz-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
     color: #373737;
 	text-shadow:1px 1px #FFF;
+	border-radius: 4px 4px 0px 0px;
 }
 
 

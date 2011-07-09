@@ -490,7 +490,7 @@ function set_shipping_country(html_form_id, form_id){
 	});
 	
 }
-
+/*
 jQuery(document).ready(function(){
 	jQuery('.wpsc_checkout_table input, .wpsc_checkout_table textarea').each(function(){
 		var real_value = jQuery(this).val();
@@ -503,6 +503,8 @@ jQuery(document).ready(function(){
 			jQuery(this).val(real_value).removeClass('intra-field-label');
 	});
 });
+
+*/
 
 //Javascript for variations: bounce the variation box when nothing is selected and return false for add to cart button.
 jQuery(document).ready(function(){
