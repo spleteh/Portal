@@ -258,8 +258,11 @@ ol.cf-ol li.cf_li_err {
 	border: 2px solid #D93628; 
 	padding:5px 10px !important;
 	margin:5px -10px !important;
+	color:#000;
 	
 }
+
+
 
 ol.cf-ol li ul.cf_li_text_err {
 	height:1%;
@@ -378,8 +381,8 @@ div.waiting {
 /*   formatting for invalid user inputs               */
 /*                                                    */
 .cform .cf_error { 
-	color:#ad2929; 
-	border:1px solid #ad2929; 
+	color:#000; 
+ 
 }
 div.mailerr {
 	display:block;
