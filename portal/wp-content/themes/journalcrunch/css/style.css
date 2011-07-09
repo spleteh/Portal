@@ -2,7 +2,7 @@
 font-family: AgentRed;
 src: url('AGENTRED.TTF');
 }
- /*TEST*/
+
 
 #content #singlePost .meta-data {
 float:right;
@@ -181,10 +181,10 @@ padding: 0;
 
 
 
-.gdsr-oxygen .starsbar.gdsr-size-24 .gdouter { background: url('../stars/oxygen/stars24.png') repeat-x 0px 0px; }
-.gdsr-oxygen .starsbar.gdsr-size-24 .gdinner { background: url('../stars/oxygen/stars24.png') repeat-x 0px -48px; }
-.gdsr-oxygen .starsbar.gdsr-size-24 .gdcurrent { background: url('../stars/oxygen/stars24.png') repeat-x 0px -24px; }
-.gdsr-oxygen .starsbar.gdsr-size-24 a:hover { background: url('../stars/oxygen/stars24.png') repeat-x 0px -24px !important; }
+.gdsr-oxygen .starsbar.gdsr-size-24 .gdouter { background: url('../images/stars24.png') repeat-x 0px 0px; }
+.gdsr-oxygen .starsbar.gdsr-size-24 .gdinner { background: url('../images/stars24.png') repeat-x 0px -48px; }
+.gdsr-oxygen .starsbar.gdsr-size-24 .gdcurrent { background: url('../images/stars24.png') repeat-x 0px -24px; }
+.gdsr-oxygen .starsbar.gdsr-size-24 a:hover { background: url('../images/stars24.png') repeat-x 0px -24px !important; }
 
 
 .ratepost, .rcmmpost, .ratemulti, .rcmmmulti, .ratecmm, .reviewcmm { position: relative; display: block; }
@@ -201,7 +201,7 @@ padding: 0;
 .gdt-size-20.gdthumb.gdup a:hover { background-position: 0px -40px; }
 .gdt-size-20.gdthumb.gddw a:hover { background-position: 0px -60px !important; }
 
-.gdt-size-20.gdthumb a.gdt-starrating, .gdt-size-20.gdthumb div.gdt-starrating { background: url('../thumbs/starrating/thumbs20.png') no-repeat; }
+.gdt-size-20.gdthumb a.gdt-starrating, .gdt-size-20.gdthumb div.gdt-starrating { background: url('../images/thumbs20.png') no-repeat; }
 
 
 .gdthumb a {
