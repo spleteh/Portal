@@ -109,17 +109,28 @@ src: url('AGENTRED.TTF');
 }
  
 #panel .content input.field {
-	border: 1px #1A1A1A solid;
-	background: #414141;
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #B8C4C5 #FFFFFF #FFFFFF #B8C4C5;
+    border-radius: 4px 4px 4px 4px;
+    border-right: 1px solid #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
 	margin-right: 5px;
 	margin-top: 4px;
 	width: 200px;
-	color: white;
-	height: 16px;
+	color: black;
+	height: 20px;
 }
- 
+#panel .content input.field:hover{
+	background: #CEDDDF;
+}
+
 #panel .content input:focus.field {
-	background: #545454;
+	background: #CEDDDF;
 }
  
 /* BUTTONS */
@@ -139,13 +150,24 @@ src: url('AGENTRED.TTF');
  
 #panel .content input.bt_login {
 	width: 74px;
-	background: transparent url(../images/bt_login.png) no-repeat 0 0;
+	background: -moz-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
+	border-radius: 10px 10px 10px 10px;
+}
+
+#panel .content input.bt_login:hover {
+	background: -moz-linear-gradient(#F9F9F9, #A1A1A1) repeat scroll 0 0 transparent;
+	
 }
  
 #panel .content input.bt_register {
 	width: 94px;
-	color: white;
-	background: transparent url(../images/bt_register.png) no-repeat 0 0;
+	color: black;
+	background: -moz-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
+	border-radius: 10px 10px 10px 10px;
+}
+
+#panel .content input.bt_register:hover {
+	background: -moz-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
 }
  
 #panel .lost-pwd {
@@ -213,7 +235,7 @@ src: url('AGENTRED.TTF');
  
 .tab ul.login li a {
 	color: #15ADFF;
-	font-size:10px;
+	font-size:9px;
 }
  
 .tab ul.login li a:hover {

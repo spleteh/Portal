@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
 <head profile="http://gmpg.org/xfn/11">
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
@@ -169,8 +169,8 @@
 	<div id="panel">
 		<div class="content clearfix">
 			<div class="left border">
-				<h1>Welcome to Web-Kreation</h1>
-				<h2>Sliding login panel Demo with jQuery</h2>		
+				<h1>Družabne igre</h1>
+				<h2>Dobrodošli na portalu in spletni trgovini</h2>		
 				<p class="grey">You can put anything you want in this sliding panel: videos, audio, images, forms... The only limit is your imagination!</p>
 				<h2>Download</h2>
 				<p class="grey">To download this script go back to <a href="http://web-kreation.com/index.php/articles/implement-a-nice-clean-jquery-sliding-panel-in-wordpress-27" title="Download">article &raquo;</a></p>
@@ -221,8 +221,8 @@
 	    	<li class="left">&nbsp;</li>
 	    	<!-- Login / Register -->
 			<li id="toggle">
-				<a id="open" class="open" href="#">Log In | Register</a>
-				<a id="close" style="display: none;" class="close" href="#">Close Panel</a>			
+				<a id="open" class="open" href="#">Prijava| Registracija</a>
+				<a id="close" style="display: none;" class="close" href="#">Zapri okno</a>			
 			</li>
 	    	<li class="right">&nbsp;</li>
 		</ul> 
