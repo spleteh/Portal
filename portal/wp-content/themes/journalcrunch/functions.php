@@ -1,5 +1,7 @@
 <?php
 
+
+
 /*******************************
  MENUS SUPPORT
 ********************************/
@@ -952,6 +954,25 @@ add_action('manage_posts_custom_column', 'manage_slideshow_columns', 10, 2);
 function strhex($string) {
   $hexstr = unpack('H*', $string);
   return array_shift($hexstr);
+}
+/*******************************
+ CONTENT
+********************************/
+
+add_shortcode( 'visitor', 'visitor_check_shortcode' );
+
+function visitor_check_shortcode( $atts, $content = null ) {
+	 if ( ( !is_user_logged_in() && !is_null( $content ) ) || is_feed() )
+		return $content;
+	return '';
+}
+
+add_shortcode( 'member', 'member_check_shortcode' );
+
+function member_check_shortcode( $atts, $content = null ) {
+	 if ( is_user_logged_in() && !is_null( $content ) && !is_feed() )
+		return $content;
+	return '';
 }
  
 ?>

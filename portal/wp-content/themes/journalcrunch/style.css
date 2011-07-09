@@ -83,7 +83,7 @@ h3{
     float: left;
     margin: 0 auto 6px;
     width: 100%;
-	height:50px;
+	height:80px;
 }
 
 #wrapper {
@@ -151,6 +151,7 @@ h3{
 	left:-13px;
 	top:0;
 	text-shadow:1px 1px #000;
+	margin-top:30px;
 }
 
 #topMenu ul li{

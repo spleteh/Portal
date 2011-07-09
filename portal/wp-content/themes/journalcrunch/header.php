@@ -28,15 +28,7 @@
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory'); ?>/css/prettyPhoto.css" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory'); ?>/css/style.css" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery-1.4.2.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.form.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/cufon-yui.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/twittercb.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/ddsmoothmenu.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.prettyPhoto.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/custom.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.nivo.slider.pack.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/Vegur_400-Vegur_700.font.js"></script>
+
 <?php if(get_option('journal_cufon')!="no"):?>
 <script type="text/javascript">
 			Cufon.replace('h1',{hover:true,textShadow: '#fff 1px 1px'})('h2:not(.footerTitle,.boxFooter .twitter)',{hover:true,textShadow: '#fff 1px 1px'})('h3',{textShadow: '#fff 1px 1px'})('.reply',{hover:true});
@@ -45,9 +37,18 @@
 <?php
 	if ( is_singular() && get_option( 'thread_comments' ) )
 		wp_enqueue_script( 'comment-reply' );
+	 wp_enqueue_script("jquery"); 
 	wp_head();
 ?>
-	<script src="<?php bloginfo('template_url'); ?>/js/jquery-1.3.2.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.form.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/cufon-yui.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/twittercb.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/ddsmoothmenu.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/custom.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/Vegur_400-Vegur_700.font.js"></script>
 	<!-- Sliding effect -->
 	<script src="<?php bloginfo('template_url'); ?>/js/slide.js" type="text/javascript"></script>
 	

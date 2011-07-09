@@ -270,13 +270,13 @@ jQuery(document).ready(function () {
 	});
 
 	//  this is for storing data with the product image, like the product ID, for things like dropshop and the the ike.
-	jQuery("form.product_form").livequery(function(){
+	/*jQuery("form.product_form").livequery(function(){
 		product_id = jQuery('input[name="product_id"]',this).val();
 		image_element_id = 'product_image_'+product_id;
 		jQuery("#"+image_element_id).data("product_id", product_id);
 		parent_container = jQuery(this).parents('div.product_view_'+product_id);
 		jQuery("div.item_no_image", parent_container).data("product_id", product_id);
-	});
+	});*/
 	//jQuery("form.product_form").trigger('load');
 
 	// Toggle the additional description content
@@ -330,6 +330,7 @@ jQuery(document).ready(function () {
 	});
 
 	// Object frame destroying code.
+	/*
 	jQuery("div.shopping_cart_container").livequery(function(){
 		object_html = jQuery(this).html();
 		window.parent.jQuery("div.shopping-cart-wrapper").html(object_html);
@@ -343,7 +344,7 @@ jQuery(document).ready(function () {
 			eval(returned_data);
 		});
 	});
-
+	
 	// Object frame destroying code.
 	jQuery("form.wpsc_product_rating").livequery(function(){
 		jQuery(this).rating();
@@ -358,7 +359,7 @@ jQuery(document).ready(function () {
 			});
 			return false;
 		});
-	});
+	});*/
 
 	jQuery("form.wpsc_empty_the_cart a.emptycart").live('click',function(){
 		parent_form = jQuery(this).parents("form.wpsc_empty_the_cart");
