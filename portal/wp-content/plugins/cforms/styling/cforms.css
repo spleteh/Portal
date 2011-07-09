@@ -69,7 +69,7 @@ ol.cf-ol li.textonly {
 	margin:4px 10px 0 0; 
 	display:-moz-inline-box; /*for mozilla*/
 	display:inline-block; /*for Opera & IE*/
-	text-align:right;
+	text-align:left;
 	vertical-align:top;
 }
 
