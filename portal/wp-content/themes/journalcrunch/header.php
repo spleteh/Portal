@@ -51,6 +51,8 @@
 <body>
 <!-- Begin #mainWrapper -->
 <div id="mainWrapper">
+	<!-- Begin #menu -->
+	<div id="menu-top"></div>
 	<!-- Begin #wrapper -->
 	<div id="wrapper">
 		<!-- Begin #header -->

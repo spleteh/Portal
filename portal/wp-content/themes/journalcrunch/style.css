@@ -72,7 +72,18 @@ h3{
  /* LAYOUT STRUCTURE
 --------------------------------------------------*/
 #mainWrapper {
-	background:url(images/bk_main_wrapper.png) 0 0 repeat-x;
+	
+}
+
+#menu-top{
+    background: -moz-linear-gradient(#252525, #0A0A0A) repeat scroll 0 0 transparent;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    clear: both;
+    display: block;
+    float: left;
+    margin: 0 auto 6px;
+    width: 100%;
+	height:50px;
 }
 
 #wrapper {
