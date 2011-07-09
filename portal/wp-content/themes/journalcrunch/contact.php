@@ -5,6 +5,8 @@ Template Name: Contact
 ?>
 
 <?php get_header(); ?>
+
+
  <script type="text/javascript">
 		 $(document).ready(function(){
 			  $('#contact').ajaxForm(function(data) {
@@ -24,6 +26,8 @@ Template Name: Contact
 					});
 				 });
 		</script>
+		
+
 <!-- begin colLeft -->
 	<div id="colLeft">
 
@@ -40,14 +44,13 @@ Template Name: Contact
 				<input type="text" id="nameinput" name="name" value=""/>
 			<label for="email">Vaš E-naslov: *</label>
 
-				<input type="text" id="emailinput" name="email" value=""/>
-			<label for="datafile">Slika: *</label>	
-				<input type="file" name="datafile" size="40">
+		
 			<label for="comment">Vaše sporočilo: *</label>
 				<textarea cols="20" rows="7" id="commentinput" name="comment"></textarea><br />
 			<input type="submit" id="submitinput" name="submit" class="submit" value="POŠLJI"/>
 			<input type="hidden" id="receiver" name="receiver" value="<?php echo strhex(get_option('journal_contact_email'))?>"/>
 			</form>
+			
 			
 	</div>
 	<!-- end colleft -->
