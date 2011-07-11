@@ -109,17 +109,20 @@ src: url('AGENTRED.TTF');
 }
  
 #panel .content input.field {
-    border-color: #B8C4C5 #FFFFFF #FFFFFF #B8C4C5;
+    border-color: #B8C4C5 #FFF #FFF #B8C4C5;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
     border-radius: 4px 4px 4px 4px;
-    border-right: 1px solid #FFFFFF;
+    border-right: 1px solid #FFF;
     border-style: solid;
     border-width: 1px;
-	margin-right: 5px;
-	margin-top: 4px;
-	width: 200px;
-	color: black;
-	height: 20px;
-}
+    margin-right: 5px;
+    margin-top: 4px;
+    width: 200px;
+    color: black;
+    height: 20px
+    }
+	
 #panel .content input.field:hover{
 	background: #CEDDDF;
 }
@@ -130,56 +133,57 @@ src: url('AGENTRED.TTF');
  
 /* BUTTONS */
 /* Login and Register buttons */
-#panel .content input.bt_login,
-#panel .content input.bt_register {
-	display: block;
-	float: left;
-	clear: left;
-	height: 24px;
-	text-align: center;
-	cursor: pointer;
-	border: none;
-	font-weight: bold;
-	margin: 10px 0;
-}
- 
-#panel .content input.bt_login {
-	width: 74px;
-	background: -moz-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
-	background: -webkit-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
+#panel .content input.bt_login, #panel .content input.bt_register {
+    display: block;
+    float: left;
+    clear: left;
+    height: 24px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    margin: 10px 0
+    }
 
-	border-radius: 10px 10px 10px 10px;
-}
+#panel .content input.bt_login {
+    width: 74px;
+    background: -moz-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
+    background: -webkit-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px
+    }
 
 #panel .content input.bt_login:hover {
-	background: -webit-linear-gradient(#F9F9F9, #A1A1A1) repeat scroll 0 0 transparent;	
-	background: -moz-linear-gradient(#F9F9F9, #A1A1A1) repeat scroll 0 0 transparent;
-}
- 
+    background: -webit-linear-gradient(#F9F9F9, #A1A1A1) repeat scroll 0 0 transparent;
+    background: -moz-linear-gradient(#F9F9F9, #A1A1A1) repeat scroll 0 0 transparent
+    }
+
 #panel .content input.bt_register {
-	width: 94px;
-	color: black;
-	background: -moz-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
-	background: -webkit-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
-	background: linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
-	border-radius: 10px 10px 10px 10px;
-}
+    width: 94px;
+    color: black;
+    background: -moz-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
+    background: -webkit-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px
+    }
 
 #panel .content input.bt_register:hover {
-	background: -moz-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
-	background: -webkit-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
-	background: linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
-}
- 
+    background: -moz-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
+    background: -webkit-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
+    }
+
 #panel .lost-pwd {
-	display: block;
-	float:left;
-	clear: right;
-	padding: 15px 5px 0;
-	font-size: 0.95em;
-	text-decoration: underline;
-}
- 
+    display: block;
+    float: left;
+    clear: right;
+    padding: 15px 5px 0;
+    font-size: 0.95em;
+    text-decoration: underline
+    }
+	
+/* do sem je preverjono za vse brskalnike */	
 /* Panel Tab/button */
 .tab {
   	background: url(../images/tab_b.png) repeat-x 0 0;
