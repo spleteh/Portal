@@ -978,10 +978,7 @@ function member_check_shortcode( $atts, $content = null ) {
 
 
  
-?>
 
-
-<?php
 
 //Custom Theme Settings
 add_action('admin_menu', 'add_gcf_interface');

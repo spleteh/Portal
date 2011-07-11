@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
 Template Name: Homepage
 */
@@ -119,21 +119,31 @@ Template Name: Homepage
 						if($t[0]->name !='featured'){ ?>
 			<div class="postBox <?php if(($postindex % 3) == 0){ echo 'lastBox';}?>">
 				<div class="postBoxInner">
-				
+					<CENTER>
 					<?php
 					if(has_post_thumbnail()) {
 							//the_post_thumbnail();?>
-							<a align="center" href="<?php the_permalink() ?>" ><img src="<?php bloginfo('template_directory'); ?>/timthumb.php?src=<?php echo get_image_path($post->ID); ?>&h=255&w=255&zc=1" alt="<?php the_title(); ?>"></a>
+							<a href="<?php the_permalink() ?>" ><img src="<?php bloginfo('template_directory'); ?>/timthumb.php?src=<?php echo get_image_path($post->ID); ?>&h=255&zc=1" alt="<?php the_title(); ?>" align="top"></a>
 						<?php } /*else {
 							echo '<img src="'.get_bloginfo("template_url").'/images/nothumb.jpg"  alt="No Thumbnail"/>';
 						}*/?>
-					
+					</CENTER>
 					<h2><a href="<?php the_permalink() ?>" ><?php the_title(); ?></a></h2>
 					<div class="excerpt">
 					
 					<?php $category = get_the_category();
 								if($category[0]->cat_ID >=5 && $category[0]->cat_ID <= 7 ) 
-								{the_meta();} 
+								{	?>			 	
+					<ul class="post-meta">
+						<li>Število igralcev: <?php echo meta('stevilo_igralcev'); ?></li>
+						<li>Čas igranja: <?php echo meta('Cas_igranja'); ?></li>
+						<li>Starost: <?php echo meta('Starost'); ?></li>
+						<li>Leto izdaje: <?php echo meta('Leto_izdaje'); ?></li>
+						<li>Založnik:  <?php echo meta('Zaloznik'); ?></li>
+						<li>Vrsta igre: <?php echo meta('Vrsta_igre'); ?></li>
+						<li>Jezik: <?php echo meta('Jezik'); ?></li>
+					</ul>
+					<?php } 
 								else 
 								{wpe_excerpt('wpe_excerptlength_index', 'wpe_excerptmore');}  
 								?>   
