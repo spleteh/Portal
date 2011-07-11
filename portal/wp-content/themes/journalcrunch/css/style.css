@@ -109,11 +109,6 @@ src: url('AGENTRED.TTF');
 }
  
 #panel .content input.field {
-    -moz-border-bottom-colors: none;
-    -moz-border-image: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
     border-color: #B8C4C5 #FFFFFF #FFFFFF #B8C4C5;
     border-radius: 4px 4px 4px 4px;
     border-right: 1px solid #FFFFFF;
@@ -151,23 +146,29 @@ src: url('AGENTRED.TTF');
 #panel .content input.bt_login {
 	width: 74px;
 	background: -moz-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
+
 	border-radius: 10px 10px 10px 10px;
 }
 
 #panel .content input.bt_login:hover {
+	background: -webit-linear-gradient(#F9F9F9, #A1A1A1) repeat scroll 0 0 transparent;	
 	background: -moz-linear-gradient(#F9F9F9, #A1A1A1) repeat scroll 0 0 transparent;
-	
 }
  
 #panel .content input.bt_register {
 	width: 94px;
 	color: black;
 	background: -moz-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
+	background: linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
 	border-radius: 10px 10px 10px 10px;
 }
 
 #panel .content input.bt_register:hover {
 	background: -moz-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
+	background: -webkit-linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
+	background: linear-gradient(#F9F9F9, #E5E5E5) repeat scroll 0 0 transparent;
 }
  
 #panel .lost-pwd {
@@ -301,11 +302,6 @@ margin-top:-45px;
 -------------------------------------------------*/
 
 #colLeft .wpcf7 input, #colLeft .wpcf7 textarea {
-    -moz-border-bottom-colors: none;
-    -moz-border-image: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
     border-color: #B8C4C5 #FFFFFF #FFFFFF #B8C4C5;
     border-radius: 4px 4px 4px 4px;
     border-right: 1px solid #FFFFFF;
@@ -341,11 +337,6 @@ margin-top:-45px;
 #colLeft .wrap table input,
 #colLeft .wrap table select,
 #colLeft .wrap table textarea{
-    -moz-border-bottom-colors: none;
-    -moz-border-image: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
     border-color: #B8C4C5 #FFFFFF #FFFFFF #B8C4C5;
     border-radius: 4px 4px 4px 4px;
     border-right: 1px solid #FFFFFF;
@@ -364,11 +355,6 @@ margin-top:-45px;
 #wpsc_shopping_cart_container .wpsc_checkout_forms input,
 #wpsc_shopping_cart_container .wpsc_checkout_forms select,
 #wpsc_shopping_cart_container .wpsc_checkout_forms textarea {
-    -moz-border-bottom-colors: none;
-    -moz-border-image: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
     border-color: #B8C4C5 #FFFFFF #FFFFFF #B8C4C5;
     border-radius: 4px 4px 4px 4px;
     border-right: 1px solid #FFFFFF;
