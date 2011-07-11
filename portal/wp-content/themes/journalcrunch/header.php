@@ -178,16 +178,16 @@
 			<div class="left">
 				<!-- Login Form -->
 				<form class="clearfix" action="<?php bloginfo('url') ?>/wp-login.php" method="post">
-					<h1>Member Login</h1>
-					<label class="grey" for="log">Username:</label>
+					<h1>Prijava</h1>
+					<label class="grey" for="log">Uporabniško ime:</label>
 					<input class="field" type="text" name="log" id="log" value="<?php echo wp_specialchars(stripslashes($user_login), 1) ?>" size="23" />
-					<label class="grey" for="pwd">Password:</label>
+					<label class="grey" for="pwd">Geslo:</label>
 					<input class="field" type="password" name="pwd" id="pwd" size="23" />
-	            	<label><input name="rememberme" id="rememberme" type="checkbox" checked="checked" value="forever" /> Remember me</label>
+	            	<label><input name="rememberme" id="rememberme" type="checkbox" checked="checked" value="forever" /> Zapomni se me</label>
         			<div class="clear"></div>
-					<input type="submit" name="submit" value="Login" class="bt_login" />
+					<input type="submit" name="submit" value="Prijava" class="bt_login" />
 					<input type="hidden" name="redirect_to" value="<?php echo $_SERVER['REQUEST_URI']; ?>"/>
-					<a class="lost-pwd" href="<?php bloginfo('url') ?>/wp-login.php?action=lostpassword">Lost your password?</a>
+					<a class="lost-pwd" href="<?php bloginfo('url') ?>/wp-login.php?action=lostpassword">Pozabil geslo?</a>
 				</form>
 			</div>
 			<div class="left right">
